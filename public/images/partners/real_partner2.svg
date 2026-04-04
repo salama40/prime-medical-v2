@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <rect x="85" y="10" width="30" height="30" fill="#38a169"/>
+  <path d="M100 15 V35 M90 25 H110" stroke="white" stroke-width="4"/>
+  <text x="100" y="65" font-family="Tahoma, Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle" fill="#38a169" direction="rtl">صيدليات النخبة</text>
+</svg>

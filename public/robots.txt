@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://primemedical-eg.com/sitemap.xml

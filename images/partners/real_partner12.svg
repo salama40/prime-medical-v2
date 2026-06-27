@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <circle cx="90" cy="30" r="10" fill="#d53f8c"/>
+  <circle cx="110" cy="30" r="10" fill="#d53f8c"/>
+  <text x="100" y="65" font-family="Tahoma, Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle" fill="#b83280" direction="rtl">مجموعة الرعاية</text>
+</svg>

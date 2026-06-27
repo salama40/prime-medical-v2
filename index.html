@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏥</text></svg>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Prime Medical - الشريك الاستراتيجي لتوريد المستلزمات الطبية ومهمات الوقاية بالجملة للمستشفيات والمصانع في مصر. كمامات، قفازات، وبدل عزل بمواصفات عالمية.">
+  <meta name="keywords"
+    content="شركة توريد مستلزمات طبية, توريد كمامات جملة, قفازات طبية جملة, مهمات وقاية للمصانع, Prime Medical, مستلزمات مكافحة العدوى, تعقيم, توريد مستشفيات, مناقصات توريد, PPE Supplier Egypt, Medical Supplies Wholesale">
+  <meta name="author" content="Prime Medical">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:url" content="https://primemedical-eg.com/">
+  <meta property="og:title" content="Prime Medical | رائد توريد المستلزمات الطبية ومهمات الوقاية بالجملة">
+  <meta property="og:description"
+    content="شريكك الموثوق لتوريد كافة احتياجات المستشفيات والمصانع من المستلزمات الطبية. جودة معتمدة، مخزون ضخم، وتوريد فوري لجميع المحافظات.">
+  <meta property="og:image" content="/prime-medical-v2/images/prime-logo-hd.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://primemedical-eg.com/">
+  <meta property="twitter:title" content="Prime Medical | رائد توريد المستلزمات الطبية ومهمات الوقاية بالجملة">
+  <meta property="twitter:description"
+    content="شريكك الموثوق لتوريد كافة احتياجات المستشفيات والمصانع من المستلزمات الطبية. جودة معتمدة، مخزون ضخم، وتوريد فوري لجميع المحافظات.">
+  <meta property="twitter:image" content="/images/prime-logo-hd.png">
+
+  <title>Prime Medical | شركة توريد مستلزمات طبية ومهمات وقاية (جملة)</title>
+  <meta name="google-site-verification" content="czK9OoopCagNd1lRPK7lhUHX8lR7OVHibbNZg08CYZE" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XHR1KJ14FK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XHR1KJ14FK');
+  </script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0A5C95',
+            secondary: '#14B8A6',
+            accent: '#F59E0B',
+          },
+          fontFamily: {
+            'tajawal': ['Tajawal', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Google Fonts - Tajawal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      font-family: 'Tajawal', sans-serif;
+    }
+
+    body {
+      overflow-x: hidden;
+      color: #000000;
+    }
+
+    section {
+      color: #000000;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .glass-nav {
+      background: rgba(10, 92, 149, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .glass-nav-scrolled {
+      background: rgba(10, 92, 149, 0.98);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero-overlay {
+      background: linear-gradient(135deg, rgba(10, 92, 149, 0.95) 0%, rgba(20, 184, 166, 0.85) 100%);
+    }
+
+    .product-card {
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .product-card:hover {
+      transform: translateY(-15px) scale(1.02);
+      box-shadow: 0 25px 50px rgba(10, 92, 149, 0.3);
+    }
+
+    .timeline-line {
+      background: linear-gradient(180deg, #0A5C95 0%, #14B8A6 100%);
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 1000;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.1);
+      }
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #0A5C95 0%, #14B8A6 100%);
+      border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0A5C95;
+    }
+
+    .cert-badge {
+      background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+      animation: shine 3s infinite;
+    }
+
+    @keyframes shine {
+
+      0%,
+      100% {
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      }
+
+      50% {
+        box-shadow: 0 0 40px rgba(255, 215, 0, 0.8);
+      }
+    }
+
+    .loading-wave {
+      display: inline-block;
+      width: 6px;
+      height: 30px;
+      margin: 0 2px;
+      background: #14B8A6;
+      animation: wave 1s infinite ease-in-out;
+    }
+
+    .loading-wave:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+
+    .loading-wave:nth-child(3) {
+      animation-delay: 0.2s;
+    }
+
+    .loading-wave:nth-child(4) {
+      animation-delay: 0.3s;
+    }
+
+    @keyframes wave {
+
+      0%,
+      40%,
+      100% {
+        transform: scaleY(0.4);
+      }
+
+      20% {
+        transform: scaleY(1);
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="/prime-medical-v2/assets/index-BKg-WeMF.js"></script>
+  <link rel="stylesheet" crossorigin href="/prime-medical-v2/assets/index-CBq227mm.css">
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <!-- Schema Markup (Local Business) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "Prime Medical",
+      "image": "https://primemedical-eg.com/images/prime-logo-hd.png",
+      "@id": "https://primemedical-eg.com",
+      "url": "https://primemedical-eg.com",
+      "telephone": "+201121838060",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Nasr City",
+        "addressLocality": "Cairo",
+        "postalCode": "11765",
+        "addressCountry": "EG"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.0444,
+        "longitude": 31.2357
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61586857182213",
+        "https://www.instagram.com/prim_emedical"
+      ]
+    }
+  </script>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</body>
+
+</html>

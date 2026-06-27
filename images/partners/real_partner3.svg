@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <circle cx="100" cy="25" r="15" fill="none" stroke="#dd6b20" stroke-width="2"/>
+  <path d="M100 10 L100 40 M85 25 L115 25" stroke="#dd6b20" stroke-width="2"/>
+  <text x="100" y="65" font-family="Tahoma, Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle" fill="#dd6b20" direction="rtl">مختبرات الحياة</text>
+</svg>
